@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <nav class="container">
+        <div class="title">
+            <div class="icon" style="background-image: url(/assets/1.jpg);"></div>
+            <h1>Retro</h1>
+        </div>
+        <div class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Company Profile</a>
+            <a href="#">About Us</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Hi User, Welcome to Our Company</h1>
+        <p>Our company is one of the top IT Consultant company in the world</p>
+        <img class="header-img" src="/assets/1.jpg" alt="header">
+        <!-- <img class="header-img" src="/assets/2.jpg" alt="header">
+        <img class="header-img" src="/assets/3.png" alt="header"> -->
+    </header>
+
+    <section>
+        <fieldset>
+            <legend>Our Headquarter</legend>
+            <div class="headquarters">
+                <div class="headquarter-item">
+                    <div class="bg-image" style="background-image: url(/assets/1.jpg);"></div>
+                    <p>Malang</p>
+                </div>
+                <div class="headquarter-item">
+                    <div class="bg-image" style="background-image: url(/assets/1.jpg);"></div>
+                    <p>Surabaya</p>
+                </div>
+                <div class="headquarter-item">
+                    <div class="bg-image" style="background-image: url(/assets/1.jpg);"></div>
+                    <p>Jogja</p>
+                </div>
+            </div>
+        </fieldset>
+    </section>
+
+    <section>
+        <h1>Message Us</h1>
+        <form class="message-us-form" name="message-us-form">
+            <div class="input-form">
+                <div>
+                    <label class="field-title">First Name</label><label>:</label><input class="form-field" type="text"
+                        name="first-name" required>
+                </div>
+                <div>
+                    <label class="field-title">Last Name</label><label>:</label><input class="form-field" type="text"
+                        name="last-name" required>
+                </div>
+                <button type="button" id="send-message-us-form">Send</button>
+            </div>
+            <div class="result-form">
+                <b>Current Time :</b>
+                <span id="current-time"></span><br>
+                <b>Fullname :</b>
+                <span id="full-name"></span>
+            </div>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
